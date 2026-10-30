@@ -12,8 +12,7 @@ void remove();
 // Last real (non-overridden) values the game reported, cached by the detours.
 bool readPlayerPose(CameraPose& out);
 bool readBrightness(double& out);
-// FullBright is applied inside the brightness getter detour, so there is nothing to write back.
-// Kept so the mod class has one symmetrical API; a setter hook can be added later.
+// Writes the gfx_gamma option object directly (both candidate float fields). No-op if not captured.
 void writeBrightness(double value);
 
 }  // namespace chukl::hooks
