@@ -1,0 +1,10 @@
+{
+  "id": "chukl_levi",
+  "name": "Chukl Levi",
+  "author": "you",
+  "version": "0.1.0",
+  "type": "preload-native",
+  "entry": "libchukl_levi.so",
+  "abi": "arm64-v8a",
+  "minecraft_versions": ["1.26.*"]
+}

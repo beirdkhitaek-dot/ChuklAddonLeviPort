@@ -1,0 +1,5 @@
+{
+  "freecam":  { "speed": 1.0, "vertical_speed": 1.0, "smoothing": true, "show_own_body": true, "look_sensitivity": 0.5, "chunk_distance": 12 },
+  "freelook": { "mode": "Player", "toggle_perspective": true, "through_walls": false, "camera_sensitivity": 8.0, "arrows_control_opposite": true, "arrow_speed": 4.0 },
+  "version": 1
+}
